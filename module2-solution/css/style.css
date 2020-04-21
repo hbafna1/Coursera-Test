@@ -1,4 +1,157 @@
+
+
 h1
 {
-	color:yellow;
+	text-align: center;
+	text-decoration: bold;
+}
+
+.row 
+{
+	width: 100%;
+	margin-top: 80px;
+}
+
+* 
+{
+	box-sizing: border-box;
+}
+
+
+.p1
+{
+	padding: 0px;
+	margin-top: 30px;
+	margin-left: 10px;
+	border: 3px solid black;
+	height:190px;
+	font-family: sans-serif;
+	text-align: center;
+  	background-color: gray;
+  	color: white;
+}
+
+.p2
+{
+	padding: 0px;
+	margin-top: 30px;
+	margin-left: 10px;
+	border: 3px solid black;
+	height:190px;
+	font-family: sans-serif;
+	text-align: center;
+  	background-color: gray;
+  	color: white;
+}
+
+.p3
+{
+	padding: 0px;
+	margin-top: 30px;
+	margin-left: 10px;
+	border: 3px solid black;
+	height:190px;
+	font-family: sans-serif;
+	text-align: center;
+  	background-color: gray;
+  	color: white;
+}
+
+.food1
+{
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	margin-left: 299px;
+	border: 2px solid black;
+	height:5px;
+	font-family: sans-serif;
+  	background-color: lightpink;
+  	color: black;
+  	width:25%;
+
+}
+
+.food2
+{
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	margin-left: 299px;
+	border: 2px solid black;
+	height:5px;
+	font-family: sans-serif;
+  	background-color: red;
+  	color: white;
+  	width:25%;
+
+}
+
+.food3
+{
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	margin-left: 299px;
+	border: 2px solid black;
+	height:5px;
+	font-family: sans-serif;
+  	background-color: lightyellow;
+  	color: black;
+  	width:25%;
+
+}
+
+
+/* DESTOP VIEW */
+@media (min-width: 992px) {
+  .col1, .col2, .col3{
+    float: left;
+    padding-left: 10px;
+  }
+  .col1 {
+    width: 33.33%;
+  }
+  .col2 {
+    width: 33.33%;
+  }
+  .col3 {
+    width: 33.33%;
+  }
+}
+
+/* TABLET VIEW */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col1, .col2, .col3 {
+ 	float:left;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .col1 {
+    width: 50%;
+  }
+  .col2 {
+    width: 50%;
+  }
+  .col3 {
+    width: 100%;
+  }
+}
+
+/* MOBILE VIEW */
+
+@media (max-width: 767px)  {
+  .col1, .col2, .col3 {
+    float: left;
+    padding-top: 10px;
+  }
+  .col1 {
+    width: 100%;
+  }
+  .col2 {
+    width: 100%;
+  }
+  .col3 {
+    width: 100%;
+  }
 }
