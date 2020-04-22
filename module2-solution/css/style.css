@@ -15,88 +15,58 @@ h1
 	box-sizing: border-box;
 }
 
-
-.p1
+section>h2
 {
-	padding: 0px;
-	margin-top: 30px;
-	margin-left: 10px;
-	border: 3px solid black;
-	height:190px;
-	font-family: sans-serif;
-	text-align: center;
-  	background-color: gray;
-  	color: white;
+	text-align: right;
+	display: block;
+	float: right;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    margin: 0;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    padding-top: 10px;
+    margin-bottom: 20px; 
 }
 
-.p2
+section 
 {
-	padding: 0px;
-	margin-top: 30px;
-	margin-left: 10px;
-	border: 3px solid black;
-	height:190px;
-	font-family: sans-serif;
-	text-align: center;
-  	background-color: gray;
-  	color: white;
+    border: 2px solid black;
+    background-color: gray;
+    margin: 10px;
+    display: block;
 }
 
-.p3
+p
 {
-	padding: 0px;
-	margin-top: 30px;
-	margin-left: 10px;
-	border: 3px solid black;
-	height:190px;
-	font-family: sans-serif;
-	text-align: center;
-  	background-color: gray;
-  	color: white;
+	margin-top: 70px;
+	font-size: 17px;
+	margin-left: 5px;
 }
 
 .food1
 {
-	text-align: center;
-	padding-bottom: 20px;
-	margin-bottom: 10px;
-	margin-left: 299px;
-	border: 2px solid black;
-	height:5px;
+	
 	font-family: sans-serif;
   	background-color: lightpink;
-  	color: black;
-  	width:25%;
+  	color:black;
 }
 
 .food2
 {
-	text-align: center;
-	padding-bottom: 20px;
-	margin-bottom: 10px;
-	margin-left: 299px;
-	border: 2px solid black;
-	height:5px;
 	font-family: sans-serif;
   	background-color: red;
   	color: white;
-  	width:25%;
-
 }
 
 .food3
 {
-	text-align: center;
-	padding-bottom: 20px;
-	margin-bottom: 10px;
-	margin-left: 299px;
-	border: 2px solid black;
-	height:5px;
 	font-family: sans-serif;
-  	background-color: lightyellow;
+  	background-color: gold;
   	color: black;
-  	width:25%;
-
 }
 
 
