@@ -16,10 +16,7 @@ h1 {
   margin-top: 80px;
 }
 
-* 
-{
-  box-sizing: border-box;
-}
+
 
 #header-nav {
   background-color: gray;
@@ -36,19 +33,19 @@ h1 {
   color: black;
   font-size:1.5em;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
 }
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+.navbar-brand button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
 }
-.navbar-header button.navbar-toggle {
+.navbar-brand button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
@@ -60,11 +57,8 @@ h1 {
   color: black;
   text-align: center;
 }
-#nav-list a:hover {
-  background: gray;
-}
-#nav-list a span {
-  font-size: 1.8em;
+#nav-list a: hover {
+  background: white;
 }
 
 section {
@@ -98,7 +92,4 @@ section>p {
 /* For Extra Small Devices Only */
 @media (max-width: 767px) {
   
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
 }
