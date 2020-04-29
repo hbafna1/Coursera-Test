@@ -42,12 +42,38 @@ h1 {
   text-decoration: none;
 }
 
-.navbar-brand button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid white;
+.navbar-toggler {
+    cursor: pointer;
 }
-.navbar-brand button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: .25rem;
+}
+
+.navbar {
+  background-color: gray;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input {
+    overflow: visible;
 }
 
 #nav-list {
